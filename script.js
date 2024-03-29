@@ -69,6 +69,7 @@ async function getData(e) {
     readingPassageSection.style.display = 'none'; // Hide the reading passage
     questionsSection.style.display = 'none'; // Hide the questions
     resultSection.style.display = 'none'; // Hide the results
+    nextTestBtn.style.display = 'none'; // Hide the next button
     // If layout was adjusted previously, reset it to center
     document.querySelector('.container').style.textAlign = 'center';
     return; // Do nothing if default option is selected
