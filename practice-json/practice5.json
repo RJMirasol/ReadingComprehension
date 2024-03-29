@@ -1,0 +1,155 @@
+{
+  "readingPassage": "William Shakespeare was an English playwright, poet, and actor, widely regarded as one of the greatest writers in the English language and the world's preeminent dramatist. He was born in Stratford-upon-Avon, England, in April 1564, and baptized on April 26 of that year. Little is known about his early life, but he likely attended the King Edward VI Grammar School in Stratford, where he would have received a classical education.\n\nShakespeare's literary career began in London in the late 1580s, where he found success as both a playwright and actor. He became a shareholder in the Lord Chamberlain's Men, a leading theatrical company, and later in the Globe Theatre, where many of his plays were performed.\n\nShakespeare's plays are known for their rich language, complex characters, and universal themes. He wrote a total of 39 plays, including tragedies like 'Hamlet,' 'Othello,' and 'King Lear,' comedies like 'A Midsummer Night's Dream' and 'Twelfth Night,' and histories like 'Henry V' and 'Richard III.' His works explore timeless themes such as love, jealousy, power, betrayal, and the human condition.\n\nIn addition to his plays, Shakespeare wrote over 150 sonnets, which are widely regarded as some of the finest poetry in the English language. His sonnets explore themes of love, beauty, mortality, and the passage of time, and they have had a profound influence on English poetry and literature.\n\nShakespeare's influence extends far beyond the realm of literature. His plays have been translated into every major language and adapted into countless films, operas, ballets, and musicals. His characters, such as Hamlet, Romeo, and Juliet, and Macbeth, have become iconic figures in Western culture, and his words continue to resonate with audiences around the world.\n\nDespite his enduring popularity, much of Shakespeare's personal life remains shrouded in mystery. There are few surviving records of his private life, and scholars have long debated the authorship of his works. Some theories suggest that Shakespeare's plays were actually written by someone else, while others argue that he collaborated with other writers or that he was a front for a group of writers.\n\nRegardless of the controversies surrounding his life and works, William Shakespeare's legacy as a master storyteller and wordsmith remains unparalleled. His plays and poems continue to be studied, performed, and celebrated for their enduring relevance and universal appeal, making him a literary giant whose influence transcends time and borders.",
+  "questions": [
+    {
+      "question": "Where was William Shakespeare born?",
+      "options": ["London", "Stratford-upon-Avon", "Manchester", "Birmingham"],
+      "answer": "Stratford-upon-Avon"
+    },
+    {
+      "question": "In which theater company did Shakespeare become a shareholder?",
+      "options": [
+        "Royal Shakespeare Company",
+        "Lord Chamberlain's Men",
+        "Globe Theatre Company",
+        "King's Men"
+      ],
+      "answer": "Lord Chamberlain's Men"
+    },
+    {
+      "question": "Which play by Shakespeare is a tragedy?",
+      "options": [
+        "A Midsummer Night's Dream",
+        "Twelfth Night",
+        "Othello",
+        "Much Ado About Nothing"
+      ],
+      "answer": "Othello"
+    },
+    {
+      "question": "What is the genre of 'A Midsummer Night's Dream'?",
+      "options": ["Tragedy", "Comedy", "History", "Romance"],
+      "answer": "Comedy"
+    },
+    {
+      "question": "How many sonnets did Shakespeare write?",
+      "options": ["50", "75", "100", "150"],
+      "answer": "150"
+    },
+    {
+      "question": "Which of the following is NOT a theme explored in Shakespeare's works?",
+      "options": ["Love", "Betrayal", "Space exploration", "Power"],
+      "answer": "Space exploration"
+    },
+    {
+      "question": "What is the famous balcony scene from?",
+      "options": ["Macbeth", "Romeo and Juliet", "Julius Caesar", "Hamlet"],
+      "answer": "Romeo and Juliet"
+    },
+    {
+      "question": "Which historical figure is portrayed in 'Richard III'?",
+      "options": [
+        "Henry VIII",
+        "Queen Elizabeth I",
+        "Richard III",
+        "King John"
+      ],
+      "answer": "Richard III"
+    },
+    {
+      "question": "What is the name of the theater where many of Shakespeare's plays were performed?",
+      "options": [
+        "Globe Theatre",
+        "Royal Opera House",
+        "Royal Albert Hall",
+        "West End Theatre"
+      ],
+      "answer": "Globe Theatre"
+    },
+    {
+      "question": "Which of Shakespeare's plays is set in Venice?",
+      "options": ["Hamlet", "Othello", "Macbeth", "King Lear"],
+      "answer": "Othello"
+    },
+    {
+      "question": "What is the name of Shakespeare's wife?",
+      "options": [
+        "Anne Hathaway",
+        "Juliet Capulet",
+        "Rosalind Franklin",
+        "Mary Shelley"
+      ],
+      "answer": "Anne Hathaway"
+    },
+    {
+      "question": "What is the name of the king in 'Hamlet'?",
+      "options": ["King Lear", "King Duncan", "King Richard", "King Claudius"],
+      "answer": "King Claudius"
+    },
+    {
+      "question": "What is the name of the prince in 'Hamlet'?",
+      "options": [
+        "Prince Charles",
+        "Prince Harry",
+        "Prince Hamlet",
+        "Prince William"
+      ],
+      "answer": "Prince Hamlet"
+    },
+    {
+      "question": "What is the name of the fairy king in 'A Midsummer Night's Dream'?",
+      "options": ["Oberon", "Puck", "Titania", "Bottom"],
+      "answer": "Oberon"
+    },
+    {
+      "question": "What is the name of the shipwrecked character in 'The Tempest'?",
+      "options": ["Caliban", "Antonio", "Prospero", "Miranda"],
+      "answer": "Prospero"
+    },
+    {
+      "question": "What is the name of Shakespeare's theater company?",
+      "options": [
+        "Lord Chamberlain's Men",
+        "King's Men",
+        "Royal Shakespeare Company",
+        "Globe Theatre Company"
+      ],
+      "answer": "Lord Chamberlain's Men"
+    },
+    {
+      "question": "Which play features a character named Shylock?",
+      "options": [
+        "The Merchant of Venice",
+        "Twelfth Night",
+        "As You Like It",
+        "Measure for Measure"
+      ],
+      "answer": "The Merchant of Venice"
+    },
+    {
+      "question": "What is the name of the forest in 'As You Like It'?",
+      "options": [
+        "Forest of Arden",
+        "Sherwood Forest",
+        "Black Forest",
+        "Epping Forest"
+      ],
+      "answer": "Forest of Arden"
+    },
+    {
+      "question": "Which character famously says 'To be, or not to be: that is the question'?",
+      "options": ["Macbeth", "Hamlet", "King Lear", "Othello"],
+      "answer": "Hamlet"
+    },
+    {
+      "question": "What is the name of Shakespeare's final play?",
+      "options": [
+        "The Tempest",
+        "Romeo and Juliet",
+        "Twelfth Night",
+        "King Lear"
+      ],
+      "answer": "The Tempest"
+    }
+  ]
+}

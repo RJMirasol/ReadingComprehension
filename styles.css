@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  text-align: center; /* Center the content initially */
+}
+
+.reading-passage {
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-bottom: 10px;
+}
+
+#practice-select-container {
+  margin-top: 20px; /* Adjust as needed */
+}
+
+#submit-btn,
+#next-test-btn {
+  margin-top: 15px;
+  background-color: #fbeee0;
+  border: 2px solid #333;
+  border-radius: 30px;
+  box-shadow: #333 4px 4px 0 0;
+  color: #333;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 12px;
+  padding: 0 18px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}

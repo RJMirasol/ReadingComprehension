@@ -1,0 +1,200 @@
+{
+  "readingPassage": "Dogs, often referred to as 'man's best friend,' have been companions to humans for thousands of years. They are one of the first animals to be domesticated by humans, with evidence suggesting that domestication may have occurred as early as 20,000 years ago.\n\nDogs belong to the Canidae family, which also includes wolves, foxes, and other similar animals. They are highly social animals that form strong bonds with their human companions and other dogs. This social behavior is believed to have played a significant role in their domestication.\n\nOne of the defining features of dogs is their remarkable diversity in size, shape, and behavior. There are hundreds of different breeds of dogs, ranging from tiny Chihuahuas to massive Great Danes. Each breed has its own unique characteristics and traits, shaped by centuries of selective breeding by humans.\n\nDogs serve a variety of roles in human society, including companionship, work, and service. Many dogs are kept as pets and provide emotional support and companionship to their owners. Others are trained as working dogs for tasks such as herding, hunting, and search and rescue.\n\nService dogs play a crucial role in assisting people with disabilities, including guide dogs for the blind, hearing dogs for the deaf, and mobility assistance dogs for those with physical disabilities. These highly trained dogs help their owners navigate the world and perform daily tasks with greater independence.\n\nDogs have also been employed in various roles throughout history, including as guards, protectors, and even warriors. They have accompanied humans in times of war, serving as scouts, messengers, and bomb detection dogs. Their keen senses and loyalty make them valuable assets in military and law enforcement operations.\n\nIn addition to their practical roles, dogs have also made significant contributions to science and medicine. They have been used in research to study a wide range of topics, including behavior, genetics, and disease. Dogs have played a vital role in advancing our understanding of health and medicine, with research on dogs contributing to the development of treatments for diseases such as diabetes, cancer, and epilepsy.\n\nDespite their close relationship with humans, dogs still retain many of their natural instincts and behaviors. They are pack animals by nature, with a hierarchical social structure and complex communication system. Dogs use body language, vocalizations, and scent to communicate with each other and with humans.\n\nTraining and socialization are essential for dogs to become well-behaved members of society. Proper training helps dogs develop good manners, obedience, and social skills, making them better companions and pets. Early socialization is particularly important for puppies to learn how to interact with other dogs and people in a positive and appropriate manner.\n\nOverall, dogs play a significant role in human society and culture, serving as loyal companions, working partners, and beloved pets. Their intelligence, loyalty, and versatility make them one of the most beloved and cherished animals on the planet.",
+  "questions": [
+    {
+      "question": "What is one of the defining features of dogs?",
+      "options": [
+        "Their ability to fly",
+        "Their remarkable diversity",
+        "Their ability to swim underwater",
+        "Their ability to change colors"
+      ],
+      "answer": "Their remarkable diversity"
+    },
+    {
+      "question": "Which family do dogs belong to?",
+      "options": ["Felidae", "Canidae", "Equidae", "Ursidae"],
+      "answer": "Canidae"
+    },
+    {
+      "question": "What is one role that dogs play in human society?",
+      "options": [
+        "Cooking",
+        "Performing magic tricks",
+        "Providing companionship",
+        "Building houses"
+      ],
+      "answer": "Providing companionship"
+    },
+    {
+      "question": "What is the purpose of service dogs?",
+      "options": [
+        "To play fetch",
+        "To perform magic shows",
+        "To assist people with disabilities",
+        "To drive cars"
+      ],
+      "answer": "To assist people with disabilities"
+    },
+    {
+      "question": "What role have dogs played in military operations?",
+      "options": [
+        "Baking cookies",
+        "Serving as scouts and messengers",
+        "Painting portraits",
+        "Singing songs"
+      ],
+      "answer": "Serving as scouts and messengers"
+    },
+    {
+      "question": "What contribution have dogs made to science and medicine?",
+      "options": [
+        "Discovering new planets",
+        "Developing cures for diseases",
+        "Inventing time travel",
+        "Writing poetry"
+      ],
+      "answer": "Developing cures for diseases"
+    },
+    {
+      "question": "What is one of the natural instincts of dogs?",
+      "options": [
+        "Ability to play the piano",
+        "Hierarchical social structure",
+        "Ability to speak multiple languages",
+        "Flying ability"
+      ],
+      "answer": "Hierarchical social structure"
+    },
+    {
+      "question": "Why is training and socialization important for dogs?",
+      "options": [
+        "To learn how to build a rocket",
+        "To become well-behaved members of society",
+        "To become professional dancers",
+        "To become chefs"
+      ],
+      "answer": "To become well-behaved members of society"
+    },
+    {
+      "question": "What is the primary role of dogs in human society?",
+      "options": [
+        "To rule the world",
+        "To make people laugh",
+        "To provide companionship",
+        "To solve mathematical equations"
+      ],
+      "answer": "To provide companionship"
+    },
+    {
+      "question": "What makes dogs valuable assets in military and law enforcement?",
+      "options": [
+        "Ability to perform card tricks",
+        "Keen senses and loyalty",
+        "Ability to compose music",
+        "Ability to recite poetry"
+      ],
+      "answer": "Keen senses and loyalty"
+    },
+    {
+      "question": "What is essential for puppies to learn during early socialization?",
+      "options": [
+        "How to play the guitar",
+        "How to cook spaghetti",
+        "How to interact with other dogs and people",
+        "How to perform ballet"
+      ],
+      "answer": "How to interact with other dogs and people"
+    },
+    {
+      "question": "What is one of the contributions of dogs to human society?",
+      "options": [
+        "Playing chess",
+        "Helping with homework",
+        "Assisting people with disabilities",
+        "Writing novels"
+      ],
+      "answer": "Assisting people with disabilities"
+    },
+    {
+      "question": "What is one reason why dogs are considered 'man's best friend'?",
+      "options": [
+        "Because they can fly",
+        "Because they can read minds",
+        "Because they are loyal companions",
+        "Because they can teleport"
+      ],
+      "answer": "Because they are loyal companions"
+    },
+    {
+      "question": "What is the primary function of guide dogs for the blind?",
+      "options": [
+        "To make sandwiches",
+        "To assist people with visual impairments",
+        "To play chess",
+        "To sing opera"
+      ],
+      "answer": "To assist people with visual impairments"
+    },
+    {
+      "question": "What is the role of dogs in search and rescue operations?",
+      "options": [
+        "To perform magic tricks",
+        "To perform surgery",
+        "To find missing people",
+        "To build houses"
+      ],
+      "answer": "To find missing people"
+    },
+    {
+      "question": "What is the primary purpose of training for dogs?",
+      "options": [
+        "To learn how to ride bicycles",
+        "To develop good manners and obedience",
+        "To become professional dancers",
+        "To become chefs"
+      ],
+      "answer": "To develop good manners and obedience"
+    },
+    {
+      "question": "What is one of the ways dogs communicate?",
+      "options": [
+        "Singing opera",
+        "Using body language and vocalizations",
+        "Writing poetry",
+        "Solving mathematical equations"
+      ],
+      "answer": "Using body language and vocalizations"
+    },
+    {
+      "question": "What is the primary role of working dogs?",
+      "options": [
+        "To watch television",
+        "To assist with gardening",
+        "To perform magic tricks",
+        "To perform tasks such as herding and hunting"
+      ],
+      "answer": "To perform tasks such as herding and hunting"
+    },
+    {
+      "question": "What is one of the reasons why dogs are used in research?",
+      "options": [
+        "To play video games",
+        "To study behavior, genetics, and disease",
+        "To learn how to cook spaghetti",
+        "To compose music"
+      ],
+      "answer": "To study behavior, genetics, and disease"
+    },
+    {
+      "question": "What is the purpose of therapy dogs?",
+      "options": [
+        "To perform acrobatics",
+        "To perform magic shows",
+        "To provide emotional support to people",
+        "To fly airplanes"
+      ],
+      "answer": "To provide emotional support to people"
+    }
+  ]
+}
