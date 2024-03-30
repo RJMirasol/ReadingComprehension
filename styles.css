@@ -42,6 +42,21 @@ p {
   margin-bottom: 10px;
 }
 
+.result-top {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.result-item {
+  margin-top: 20px;
+  line-height: 5px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
 #practice-select-container {
   margin-top: 20px; /* Adjust as needed */
 }

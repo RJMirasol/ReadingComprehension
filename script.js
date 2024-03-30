@@ -75,17 +75,17 @@ function addLineBreaks(passage) {
 async function getData(e) {
   const selectInput = e.target.value;
   if (selectInput === 'default') {
-    clearInterval(timerInterval); // Reset the timer
-    timerDisplay.textContent = '10:00'; // Reset timer display
-    readingPassageSection.innerHTML = ''; // Clear reading passage
-    questionsSection.innerHTML = ''; // Clear the questions
-    readingPassageSection.style.display = 'none'; // Hide the reading passage
-    questionsSection.style.display = 'none'; // Hide the questions
-    resultSection.style.display = 'none'; // Hide the results
-    nextTestBtn.style.display = 'none'; // Hide the next button
-    // If layout was adjusted previously, reset it to center
+    // Reset the page when the default option is selected
+    clearInterval(timerInterval);
+    timerDisplay.textContent = '10:00';
+    readingPassageSection.innerHTML = '';
+    questionsSection.innerHTML = '';
+    readingPassageSection.style.display = 'none';
+    questionsSection.style.display = 'none';
+    resultSection.style.display = 'none';
+    nextTestBtn.style.display = 'none';
     document.querySelector('.container').style.textAlign = 'center';
-    return; // Do nothing if default option is selected
+    return;
   }
 
   try {
@@ -95,14 +95,20 @@ async function getData(e) {
     const response = await fetch(jsonUrls[selectInput]);
     const data = await response.json();
 
-    const passageWithBreaks = addLineBreaks(data.readingPassage);
-    displayReadingPassage(passageWithBreaks);
+    // Shuffle questions
     questions = shuffleArray(data.questions);
+
+    // Shuffle options for each question
+    questions.forEach((question) => {
+      question.options = shuffleArray(question.options);
+    });
 
     // Adjust the layout to move content to the left
     document.querySelector('.container').style.textAlign = 'left';
 
     currentQuestionIndex = 0; // Reset current question index
+    const passageWithBreaks = addLineBreaks(data.readingPassage);
+    displayReadingPassage(passageWithBreaks);
     displayQuestion(); // Display the first question
     startTimer(); // Start the timer
 
@@ -113,7 +119,49 @@ async function getData(e) {
   }
 }
 
+// async function getData(e) {
+//   const selectInput = e.target.value;
+//   if (selectInput === 'default') {
+//     clearInterval(timerInterval); // Reset the timer
+//     timerDisplay.textContent = '10:00'; // Reset timer display
+//     readingPassageSection.innerHTML = ''; // Clear reading passage
+//     questionsSection.innerHTML = ''; // Clear the questions
+//     readingPassageSection.style.display = 'none'; // Hide the reading passage
+//     questionsSection.style.display = 'none'; // Hide the questions
+//     resultSection.style.display = 'none'; // Hide the results
+//     nextTestBtn.style.display = 'none'; // Hide the next button
+//     // If layout was adjusted previously, reset it to center
+//     document.querySelector('.container').style.textAlign = 'center';
+//     return; // Do nothing if default option is selected
+//   }
+
+//   try {
+//     // Clear previous timer interval
+//     clearInterval(timerInterval);
+
+//     const response = await fetch(jsonUrls[selectInput]);
+//     const data = await response.json();
+
+//     const passageWithBreaks = addLineBreaks(data.readingPassage);
+//     displayReadingPassage(passageWithBreaks);
+//     questions = shuffleArray(data.questions);
+
+//     // Adjust the layout to move content to the left
+//     document.querySelector('.container').style.textAlign = 'left';
+
+//     currentQuestionIndex = 0; // Reset current question index
+//     displayQuestion(); // Display the first question
+//     startTimer(); // Start the timer
+
+//     // Ensure questions section is displayed
+//     questionsSection.style.display = 'block';
+//   } catch (error) {
+//     console.error('Error fetching JSON:', error);
+//   }
+// }
+
 //randomize questions
+
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -169,15 +217,30 @@ function handleSubmit() {
 function tallyAnswers() {
   let correctAnswers = 0;
   let incorrectAnswers = 0;
+  let resultHTML = '';
+
+  readingPassageSection.style.display = 'none';
+  questionsSection.style.display = 'none';
 
   questions.forEach((question, index) => {
     const userAnswerIndex = userAnswers[index];
     const correctAnswer = question.answer;
+    const userAnswer =
+      userAnswerIndex !== undefined ? question.options[userAnswerIndex] : null;
+    const isCorrect = userAnswer !== null && userAnswer === correctAnswer;
 
-    if (
-      userAnswerIndex !== undefined &&
-      question.options[userAnswerIndex] === correctAnswer
-    ) {
+    // Determine color based on correctness
+    const color = isCorrect ? '#009E60' : 'red';
+
+    const icon = isCorrect ? '✓' : '✗';
+
+    resultHTML += `<div class="result-top">Question ${index + 1}:</div>`;
+    resultHTML += `<div class="result-top" style="color: ${color};">Your answer: ${
+      userAnswer || 'No answer provided'
+    } ${icon}</div>`;
+    resultHTML += `<div class="result-top" style="color: green;">Correct answer: ${correctAnswer}</div>`;
+
+    if (isCorrect) {
       correctAnswers++;
     } else {
       incorrectAnswers++;
@@ -187,23 +250,14 @@ function tallyAnswers() {
   const totalQuestions = correctAnswers + incorrectAnswers;
   const scorePercentage = (correctAnswers / totalQuestions) * 100;
 
-  readingPassageSection.style.display = 'none';
-  questionsSection.style.display = 'none';
+  resultHTML += `<div class="result-item">Total Questions: ${totalQuestions} </div>`;
+  resultHTML += `<div class="result-item">Correct Answers: <span style="color: #0BDA51;">${correctAnswers}</span> </div>`;
+  resultHTML += `<div class="result-item">Incorrect Answers: <span style="color: red;">${incorrectAnswers}</span> </div>`;
+  resultHTML += `<div class="result-item">Score: ${scorePercentage.toFixed(
+    2
+  )}%</div>`;
 
-  if (scorePercentage < 70) {
-    resultSection.innerHTML = `
-  <h2>Results</h2>
-  <strong>Correct Answers:</strong> ${correctAnswers}</br>
-  <strong>Incorrect Answers:</strong> ${incorrectAnswers}</br>
-  <strong>Your score is ${scorePercentage}% - You Failed! Please try again</strong>
-  `;
-  } else {
-    resultSection.innerHTML = `
-  <h2>Results</h2>
-  <strong>Correct Answers:</strong> ${correctAnswers}</br>
-  <strong>Incorrect Answers:</strong> ${incorrectAnswers}</br><strong>Your score is ${scorePercentage}% - You Passed! Great Job</strong>
-  `;
-  }
+  resultSection.innerHTML = resultHTML;
   resultSection.style.display = 'block';
   nextTestBtn.style.display = 'block'; // Display the Next Test button
 }
