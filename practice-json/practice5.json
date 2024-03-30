@@ -1,155 +1,200 @@
 {
-  "readingPassage": "William Shakespeare was an English playwright, poet, and actor, widely regarded as one of the greatest writers in the English language and the world's preeminent dramatist. He was born in Stratford-upon-Avon, England, in April 1564, and baptized on April 26 of that year. Little is known about his early life, but he likely attended the King Edward VI Grammar School in Stratford, where he would have received a classical education.\nShakespeare's literary career began in London in the late 1580s, where he found success as both a playwright and actor. He became a shareholder in the Lord Chamberlain's Men, a leading theatrical company, and later in the Globe Theatre, where many of his plays were performed.\nShakespeare's plays are known for their rich language, complex characters, and universal themes. He wrote a total of 39 plays, including tragedies like 'Hamlet,' 'Othello,' and 'King Lear,' comedies like 'A Midsummer Night's Dream' and 'Twelfth Night,' and histories like 'Henry V' and 'Richard III.' His works explore timeless themes such as love, jealousy, power, betrayal, and the human condition.\nIn addition to his plays, Shakespeare wrote over 150 sonnets, which are widely regarded as some of the finest poetry in the English language. His sonnets explore themes of love, beauty, mortality, and the passage of time, and they have had a profound influence on English poetry and literature.\nShakespeare's influence extends far beyond the realm of literature. His plays have been translated into every major language and adapted into countless films, operas, ballets, and musicals. His characters, such as Hamlet, Romeo, and Juliet, and Macbeth, have become iconic figures in Western culture, and his words continue to resonate with audiences around the world.\nDespite his enduring popularity, much of Shakespeare's personal life remains shrouded in mystery. There are few surviving records of his private life, and scholars have long debated the authorship of his works. Some theories suggest that Shakespeare's plays were actually written by someone else, while others argue that he collaborated with other writers or that he was a front for a group of writers.\nRegardless of the controversies surrounding his life and works, William Shakespeare's legacy as a master storyteller and wordsmith remains unparalleled. His plays and poems continue to be studied, performed, and celebrated for their enduring relevance and universal appeal, making him a literary giant whose influence transcends time and borders.",
+  "readingPassage": "The legend of Atlantis has intrigued scholars and adventurers for centuries, fueling a quest to uncover the truth behind this mysterious lost civilization. According to ancient texts, Atlantis was a prosperous island nation located beyond the Pillars of Hercules, which are believed to be the modern-day Strait of Gibraltar. The philosopher Plato detailed the story of Atlantis in his dialogues 'Timaeus' and 'Critias,' describing it as a technologically advanced society ruled by benevolent kings descended from the god Poseidon.\nPlato's narrative depicts Atlantis as a utopian civilization adorned with magnificent palaces, temples, and harbors. However, the downfall of Atlantis was attributed to moral corruption and conflicts with neighboring civilizations. In a divine punishment, the gods are said to have submerged Atlantis into the depths of the ocean, leaving behind only speculation and intrigue.\nDespite extensive research and exploration, the location of Atlantis remains a subject of debate. Some theories suggest that Atlantis may have been a real place, while others view it as a symbolic or allegorical tale. Regardless of its historical veracity, the legend of Atlantis continues to captivate imaginations and inspire curiosity about the mysteries of the ancient world.\nOver the centuries, numerous expeditions have been launched in search of Atlantis. From the depths of the ocean to remote islands, adventurers have scoured the globe for clues that could unlock the secrets of this enigmatic civilization. While some claim to have discovered evidence of Atlantis, such as submerged structures or ancient artifacts, none have provided conclusive proof of its existence.\nThe allure of Atlantis extends beyond its potential historical significance. It represents a symbol of human ambition and the pursuit of knowledge. The story of Atlantis serves as a cautionary tale about the consequences of hubris and moral decay, reminding us of the fragility of civilization and the importance of virtue.\nIn popular culture, Atlantis has been depicted in various forms, from literature and art to films and video games. Its enduring legacy continues to inspire creativity and exploration, keeping the mystery of Atlantis alive in the collective imagination of humanity.\nAs we delve deeper into the past and unravel the mysteries of ancient civilizations, the legend of Atlantis remains a tantalizing enigma, inviting us to embark on a journey of discovery and enlightenment.",
   "questions": [
     {
-      "question": "Where was William Shakespeare born?",
-      "options": ["London", "Stratford-upon-Avon", "Manchester", "Birmingham"],
-      "answer": "Stratford-upon-Avon"
+      "question": "Who is credited with detailing the story of Atlantis in ancient texts?",
+      "options": ["Plato", "Socrates", "Aristotle", "Herodotus"],
+      "answer": "Plato"
     },
     {
-      "question": "In which theater company did Shakespeare become a shareholder?",
+      "question": "Where is Atlantis believed to have been located?",
       "options": [
-        "Royal Shakespeare Company",
-        "Lord Chamberlain's Men",
-        "Globe Theatre Company",
-        "King's Men"
+        "Beyond the Pillars of Hercules",
+        "Mediterranean Sea",
+        "Indian Ocean",
+        "Pacific Ocean"
       ],
-      "answer": "Lord Chamberlain's Men"
+      "answer": "Beyond the Pillars of Hercules"
     },
     {
-      "question": "Which play by Shakespeare is a tragedy?",
+      "question": "What kind of civilization is Atlantis described as in Plato's dialogues?",
       "options": [
-        "A Midsummer Night's Dream",
-        "Twelfth Night",
-        "Othello",
-        "Much Ado About Nothing"
+        "Technologically advanced society",
+        "Primitive civilization",
+        "Nomadic tribe",
+        "Medieval kingdom"
       ],
-      "answer": "Othello"
+      "answer": "Technologically advanced society"
     },
     {
-      "question": "What is the genre of 'A Midsummer Night's Dream'?",
-      "options": ["Tragedy", "Comedy", "History", "Romance"],
-      "answer": "Comedy"
-    },
-    {
-      "question": "How many sonnets did Shakespeare write?",
-      "options": ["50", "75", "100", "150"],
-      "answer": "150"
-    },
-    {
-      "question": "Which of the following is NOT a theme explored in Shakespeare's works?",
-      "options": ["Love", "Betrayal", "Space exploration", "Power"],
-      "answer": "Space exploration"
-    },
-    {
-      "question": "What is the famous balcony scene from?",
-      "options": ["Macbeth", "Romeo and Juliet", "Julius Caesar", "Hamlet"],
-      "answer": "Romeo and Juliet"
-    },
-    {
-      "question": "Which historical figure is portrayed in 'Richard III'?",
+      "question": "What caused the downfall of Atlantis according to Plato?",
       "options": [
-        "Henry VIII",
-        "Queen Elizabeth I",
-        "Richard III",
-        "King John"
+        "Moral corruption and conflicts with neighboring civilizations",
+        "Natural disasters",
+        "Economic collapse",
+        "Political unrest"
       ],
-      "answer": "Richard III"
+      "answer": "Moral corruption and conflicts with neighboring civilizations"
     },
     {
-      "question": "What is the name of the theater where many of Shakespeare's plays were performed?",
+      "question": "How did the gods punish Atlantis?",
       "options": [
-        "Globe Theatre",
-        "Royal Opera House",
-        "Royal Albert Hall",
-        "West End Theatre"
+        "Submerging it into the depths of the ocean",
+        "Sending a plague",
+        "Famine",
+        "Earthquake"
       ],
-      "answer": "Globe Theatre"
+      "answer": "Submerging it into the depths of the ocean"
     },
     {
-      "question": "Which of Shakespeare's plays is set in Venice?",
-      "options": ["Hamlet", "Othello", "Macbeth", "King Lear"],
-      "answer": "Othello"
-    },
-    {
-      "question": "What is the name of Shakespeare's wife?",
+      "question": "What aspect of Atlantis continues to be debated by scholars?",
       "options": [
-        "Anne Hathaway",
-        "Juliet Capulet",
-        "Rosalind Franklin",
-        "Mary Shelley"
+        "Its location",
+        "Its population",
+        "Its language",
+        "Its government structure"
       ],
-      "answer": "Anne Hathaway"
+      "answer": "Its location"
     },
     {
-      "question": "What is the name of the king in 'Hamlet'?",
-      "options": ["King Lear", "King Duncan", "King Richard", "King Claudius"],
-      "answer": "King Claudius"
-    },
-    {
-      "question": "What is the name of the prince in 'Hamlet'?",
+      "question": "What evidence has been sought by adventurers in the quest for Atlantis?",
       "options": [
-        "Prince Charles",
-        "Prince Harry",
-        "Prince Hamlet",
-        "Prince William"
+        "Evidence of submerged structures or ancient artifacts",
+        "Evidence of alien life",
+        "Evidence of lost treasure",
+        "Evidence of a secret society"
       ],
-      "answer": "Prince Hamlet"
+      "answer": "Evidence of submerged structures or ancient artifacts"
     },
     {
-      "question": "What is the name of the fairy king in 'A Midsummer Night's Dream'?",
-      "options": ["Oberon", "Puck", "Titania", "Bottom"],
-      "answer": "Oberon"
-    },
-    {
-      "question": "What is the name of the shipwrecked character in 'The Tempest'?",
-      "options": ["Caliban", "Antonio", "Prospero", "Miranda"],
-      "answer": "Prospero"
-    },
-    {
-      "question": "What is the name of Shakespeare's theater company?",
+      "question": "What does Atlantis symbolize in popular culture?",
       "options": [
-        "Lord Chamberlain's Men",
-        "King's Men",
-        "Royal Shakespeare Company",
-        "Globe Theatre Company"
+        "Human ambition and the pursuit of knowledge",
+        "Ignorance and superstition",
+        "Isolationism",
+        "Warfare and conquest"
       ],
-      "answer": "Lord Chamberlain's Men"
+      "answer": "Human ambition and the pursuit of knowledge"
     },
     {
-      "question": "Which play features a character named Shylock?",
+      "question": "What message does the story of Atlantis convey?",
       "options": [
-        "The Merchant of Venice",
-        "Twelfth Night",
-        "As You Like It",
-        "Measure for Measure"
+        "A cautionary tale about the consequences of hubris and moral decay",
+        "A celebration of power and conquest",
+        "An endorsement of isolationism",
+        "An exploration of the supernatural"
       ],
-      "answer": "The Merchant of Venice"
+      "answer": "A cautionary tale about the consequences of hubris and moral decay"
     },
     {
-      "question": "What is the name of the forest in 'As You Like It'?",
+      "question": "How has Atlantis been depicted in various forms of media?",
       "options": [
-        "Forest of Arden",
-        "Sherwood Forest",
-        "Black Forest",
-        "Epping Forest"
+        "In literature, art, films, and video games",
+        "Only in literature",
+        "Only in art",
+        "Only in films"
       ],
-      "answer": "Forest of Arden"
+      "answer": "In literature, art, films, and video games"
     },
     {
-      "question": "Which character famously says 'To be, or not to be: that is the question'?",
-      "options": ["Macbeth", "Hamlet", "King Lear", "Othello"],
-      "answer": "Hamlet"
-    },
-    {
-      "question": "What is the name of Shakespeare's final play?",
+      "question": "What significance does Atlantis hold in human imagination?",
       "options": [
-        "The Tempest",
-        "Romeo and Juliet",
-        "Twelfth Night",
-        "King Lear"
+        "It remains a tantalizing enigma inviting exploration and discovery",
+        "It represents a failed civilization",
+        "It represents a utopian society",
+        "It represents a dystopian society"
       ],
-      "answer": "The Tempest"
+      "answer": "It remains a tantalizing enigma inviting exploration and discovery"
+    },
+    {
+      "question": "Why do some theories view Atlantis as a symbolic or allegorical tale?",
+      "options": [
+        "Due to lack of concrete evidence of its historical existence",
+        "Because it is widely accepted as fact",
+        "Because it has been conclusively proven to be true",
+        "Because it was mentioned in multiple historical records"
+      ],
+      "answer": "Due to lack of concrete evidence of its historical existence"
+    },
+    {
+      "question": "What lessons can be learned from the story of Atlantis?",
+      "options": [
+        "The importance of virtue and the fragility of civilization",
+        "The importance of power and conquest",
+        "The inevitability of decline and decay",
+        "The futility of exploration and discovery"
+      ],
+      "answer": "The importance of virtue and the fragility of civilization"
+    },
+    {
+      "question": "What role do expeditions play in the search for Atlantis?",
+      "options": [
+        "They aim to uncover clues that could unlock the secrets of this enigmatic civilization",
+        "They aim to conquer other civilizations",
+        "They aim to spread propaganda",
+        "They aim to hoard resources"
+      ],
+      "answer": "They aim to uncover clues that could unlock the secrets of this enigmatic civilization"
+    },
+    {
+      "question": "What emotions does the legend of Atlantis evoke?",
+      "options": [
+        "Curiosity, intrigue, and fascination",
+        "Fear and terror",
+        "Anger and frustration",
+        "Indifference and apathy"
+      ],
+      "answer": "Curiosity, intrigue, and fascination"
+    },
+    {
+      "question": "Why has Atlantis remained an enduring mystery?",
+      "options": [
+        "Despite efforts, no conclusive proof of its existence has been found",
+        "Because it is a recent discovery",
+        "Because it is widely accepted as fact",
+        "Because it has been thoroughly researched"
+      ],
+      "answer": "Despite efforts, no conclusive proof of its existence has been found"
+    },
+    {
+      "question": "What cultural impact has Atlantis had?",
+      "options": [
+        "It continues to inspire creativity and exploration",
+        "It has been forgotten",
+        "It has been dismissed as a myth",
+        "It has been debunked"
+      ],
+      "answer": "It continues to inspire creativity and exploration"
+    },
+    {
+      "question": "What does Atlantis represent in the collective imagination of humanity?",
+      "options": [
+        "A symbol of human ambition and the pursuit of knowledge",
+        "A symbol of ignorance and superstition",
+        "A symbol of isolationism",
+        "A symbol of warfare and conquest"
+      ],
+      "answer": "A symbol of human ambition and the pursuit of knowledge"
+    },
+    {
+      "question": "How does the story of Atlantis resonate with contemporary society?",
+      "options": [
+        "It serves as a reminder of the importance of virtue and the dangers of hubris",
+        "It promotes ignorance and superstition",
+        "It celebrates power and conquest",
+        "It advocates for isolationism"
+      ],
+      "answer": "It serves as a reminder of the importance of virtue and the dangers of hubris"
+    },
+    {
+      "question": "What is the enduring legacy of Atlantis?",
+      "options": [
+        "It remains a tantalizing enigma that invites exploration and speculation",
+        "It has been forgotten",
+        "It has been dismissed as a myth",
+        "It has been debunked"
+      ],
+      "answer": "It remains a tantalizing enigma that invites exploration and speculation"
     }
   ]
 }

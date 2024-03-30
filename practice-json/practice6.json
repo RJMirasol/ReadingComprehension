@@ -1,200 +1,195 @@
 {
-  "readingPassage": "Dogs, often referred to as 'man's best friend,' have been companions to humans for thousands of years. They are one of the first animals to be domesticated by humans, with evidence suggesting that domestication may have occurred as early as 20,000 years ago.\nDogs belong to the Canidae family, which also includes wolves, foxes, and other similar animals. They are highly social animals that form strong bonds with their human companions and other dogs. This social behavior is believed to have played a significant role in their domestication.\nOne of the defining features of dogs is their remarkable diversity in size, shape, and behavior. There are hundreds of different breeds of dogs, ranging from tiny Chihuahuas to massive Great Danes. Each breed has its own unique characteristics and traits, shaped by centuries of selective breeding by humans.\nDogs serve a variety of roles in human society, including companionship, work, and service. Many dogs are kept as pets and provide emotional support and companionship to their owners. Others are trained as working dogs for tasks such as herding, hunting, and search and rescue.\nService dogs play a crucial role in assisting people with disabilities, including guide dogs for the blind, hearing dogs for the deaf, and mobility assistance dogs for those with physical disabilities. These highly trained dogs help their owners navigate the world and perform daily tasks with greater independence.\nDogs have also been employed in various roles throughout history, including as guards, protectors, and even warriors. They have accompanied humans in times of war, serving as scouts, messengers, and bomb detection dogs. Their keen senses and loyalty make them valuable assets in military and law enforcement operations.\nIn addition to their practical roles, dogs have also made significant contributions to science and medicine. They have been used in research to study a wide range of topics, including behavior, genetics, and disease. Dogs have played a vital role in advancing our understanding of health and medicine, with research on dogs contributing to the development of treatments for diseases such as diabetes, cancer, and epilepsy.\nDespite their close relationship with humans, dogs still retain many of their natural instincts and behaviors. They are pack animals by nature, with a hierarchical social structure and complex communication system. Dogs use body language, vocalizations, and scent to communicate with each other and with humans.\nTraining and socialization are essential for dogs to become well-behaved members of society. Proper training helps dogs develop good manners, obedience, and social skills, making them better companions and pets. Early socialization is particularly important for puppies to learn how to interact with other dogs and people in a positive and appropriate manner.\nOverall, dogs play a significant role in human society and culture, serving as loyal companions, working partners, and beloved pets. Their intelligence, loyalty, and versatility make them one of the most beloved and cherished animals on the planet.",
+  "readingPassage": "In 'The Power of Myth' by Joseph Campbell, the author explores the universal themes and motifs found in myths and legends from various cultures around the world. Campbell delves into the significance of mythology in human societies, arguing that myths serve as a reflection of the collective unconscious and offer insights into the human experience.\nThroughout the book, Campbell discusses the hero's journey, a narrative archetype that appears in myths and stories across cultures. He describes the stages of the hero's journey, including the call to adventure, trials and tribulations, and the ultimate return with wisdom or treasure. According to Campbell, the hero's journey symbolizes the individual's quest for self-discovery and personal transformation.\nCampbell also explores the concept of the monomyth, or the idea that all myths share a common structure and underlying themes. He identifies recurring motifs such as the hero's encounter with a mentor, the crossing of a threshold into the unknown, and the battle with a formidable adversary. By recognizing these patterns, Campbell argues, individuals can gain a deeper understanding of their own lives and experiences.\nIn addition to analyzing specific myths and legends, Campbell discusses the role of mythology in contemporary society. He examines the ways in which myths continue to shape cultural beliefs, values, and rituals, influencing everything from religion and literature to art and popular culture.\n'The Power of Myth' is not only a scholarly exploration of mythology but also a celebration of the enduring power of storytelling. Campbell's insights into the universal themes and symbols found in myths offer readers a new perspective on the human condition and the quest for meaning and purpose.",
   "questions": [
     {
-      "question": "What is one of the defining features of dogs?",
+      "question": "Who is the author of 'The Power of Myth'?",
       "options": [
-        "Their ability to fly",
-        "Their remarkable diversity",
-        "Their ability to swim underwater",
-        "Their ability to change colors"
+        "Joseph Campbell",
+        "Carl Jung",
+        "Sigmund Freud",
+        "Friedrich Nietzsche"
       ],
-      "answer": "Their remarkable diversity"
+      "answer": "Joseph Campbell"
     },
     {
-      "question": "Which family do dogs belong to?",
-      "options": ["Felidae", "Canidae", "Equidae", "Ursidae"],
-      "answer": "Canidae"
+      "question": "What does Joseph Campbell explore in 'The Power of Myth'?",
+      "options": [
+        "The significance of mythology in human societies",
+        "The history of mathematics",
+        "The principles of economics",
+        "The laws of physics"
+      ],
+      "answer": "The significance of mythology in human societies"
     },
     {
-      "question": "What is one role that dogs play in human society?",
+      "question": "What is the hero's journey?",
       "options": [
-        "Cooking",
-        "Performing magic tricks",
-        "Providing companionship",
-        "Building houses"
+        "A narrative archetype found in myths",
+        "A trip to outer space",
+        "A scientific theory",
+        "A religious ritual"
       ],
-      "answer": "Providing companionship"
+      "answer": "A narrative archetype found in myths"
     },
     {
-      "question": "What is the purpose of service dogs?",
+      "question": "According to Joseph Campbell, what does the hero's journey symbolize?",
       "options": [
-        "To play fetch",
-        "To perform magic shows",
-        "To assist people with disabilities",
-        "To drive cars"
+        "The individual's quest for self-discovery and personal transformation",
+        "The pursuit of material wealth",
+        "The desire for fame and recognition",
+        "The quest for power and dominance"
       ],
-      "answer": "To assist people with disabilities"
+      "answer": "The individual's quest for self-discovery and personal transformation"
     },
     {
-      "question": "What role have dogs played in military operations?",
+      "question": "What is the monomyth?",
       "options": [
-        "Baking cookies",
-        "Serving as scouts and messengers",
-        "Painting portraits",
-        "Singing songs"
+        "The idea that all myths share a common structure and underlying themes",
+        "A type of poetry",
+        "A mathematical equation",
+        "A form of government"
       ],
-      "answer": "Serving as scouts and messengers"
+      "answer": "The idea that all myths share a common structure and underlying themes"
     },
     {
-      "question": "What contribution have dogs made to science and medicine?",
+      "question": "What recurring motif does Joseph Campbell identify in myths?",
       "options": [
-        "Discovering new planets",
-        "Developing cures for diseases",
-        "Inventing time travel",
-        "Writing poetry"
+        "The hero's encounter with a mentor",
+        "The hero's quest for material wealth",
+        "The hero's desire for fame and recognition",
+        "The hero's journey to outer space"
       ],
-      "answer": "Developing cures for diseases"
+      "answer": "The hero's encounter with a mentor"
     },
     {
-      "question": "What is one of the natural instincts of dogs?",
+      "question": "According to Joseph Campbell, what can individuals gain by recognizing the patterns in myths?",
       "options": [
-        "Ability to play the piano",
-        "Hierarchical social structure",
-        "Ability to speak multiple languages",
-        "Flying ability"
+        "A deeper understanding of their own lives and experiences",
+        "Material wealth",
+        "Fame and recognition",
+        "Power and dominance"
       ],
-      "answer": "Hierarchical social structure"
+      "answer": "A deeper understanding of their own lives and experiences"
     },
     {
-      "question": "Why is training and socialization important for dogs?",
+      "question": "What role does mythology play in contemporary society according to Joseph Campbell?",
       "options": [
-        "To learn how to build a rocket",
-        "To become well-behaved members of society",
-        "To become professional dancers",
-        "To become chefs"
+        "It shapes cultural beliefs, values, and rituals",
+        "It has no role in contemporary society",
+        "It is only studied by scholars",
+        "It has been forgotten"
       ],
-      "answer": "To become well-behaved members of society"
+      "answer": "It shapes cultural beliefs, values, and rituals"
     },
     {
-      "question": "What is the primary role of dogs in human society?",
+      "question": "What does 'The Power of Myth' celebrate?",
       "options": [
-        "To rule the world",
-        "To make people laugh",
-        "To provide companionship",
-        "To solve mathematical equations"
+        "The power of storytelling",
+        "The power of mathematics",
+        "The power of politics",
+        "The power of technology"
       ],
-      "answer": "To provide companionship"
+      "answer": "The power of storytelling"
     },
     {
-      "question": "What makes dogs valuable assets in military and law enforcement?",
+      "question": "What perspective does Joseph Campbell offer on the human condition?",
       "options": [
-        "Ability to perform card tricks",
-        "Keen senses and loyalty",
-        "Ability to compose music",
-        "Ability to recite poetry"
+        "A celebratory perspective",
+        "A pessimistic perspective",
+        "A neutral perspective",
+        "A cynical perspective"
       ],
-      "answer": "Keen senses and loyalty"
+      "answer": "A celebratory perspective"
     },
     {
-      "question": "What is essential for puppies to learn during early socialization?",
+      "question": "What is one of the key themes explored in 'The Power of Myth'?",
       "options": [
-        "How to play the guitar",
-        "How to cook spaghetti",
-        "How to interact with other dogs and people",
-        "How to perform ballet"
+        "The search for meaning and purpose",
+        "The pursuit of material wealth",
+        "The quest for fame and recognition",
+        "The desire for power and dominance"
       ],
-      "answer": "How to interact with other dogs and people"
+      "answer": "The search for meaning and purpose"
     },
     {
-      "question": "What is one of the contributions of dogs to human society?",
+      "question": "What impact does storytelling have on the human experience according to Joseph Campbell?",
       "options": [
-        "Playing chess",
-        "Helping with homework",
-        "Assisting people with disabilities",
-        "Writing novels"
+        "It shapes cultural beliefs and values",
+        "It has no impact",
+        "It promotes ignorance and superstition",
+        "It spreads misinformation"
       ],
-      "answer": "Assisting people with disabilities"
+      "answer": "It shapes cultural beliefs and values"
     },
     {
-      "question": "What is one reason why dogs are considered 'man's best friend'?",
+      "question": "How does 'The Power of Myth' contribute to our understanding of mythology?",
       "options": [
-        "Because they can fly",
-        "Because they can read minds",
-        "Because they are loyal companions",
-        "Because they can teleport"
+        "It offers a scholarly exploration",
+        "It provides a scientific analysis",
+        "It promotes misinformation",
+        "It dismisses the importance of mythology"
       ],
-      "answer": "Because they are loyal companions"
+      "answer": "It offers a scholarly exploration"
     },
     {
-      "question": "What is the primary function of guide dogs for the blind?",
+      "question": "What does Joseph Campbell argue about the hero's journey?",
       "options": [
-        "To make sandwiches",
-        "To assist people with visual impairments",
-        "To play chess",
-        "To sing opera"
+        "It symbolizes the quest for self-discovery and personal transformation",
+        "It has no significance",
+        "It is only found in ancient myths",
+        "It is a purely fictional concept"
       ],
-      "answer": "To assist people with visual impairments"
+      "answer": "It symbolizes the quest for self-discovery and personal transformation"
     },
     {
-      "question": "What is the role of dogs in search and rescue operations?",
+      "question": "What does Joseph Campbell emphasize about the hero's journey?",
       "options": [
-        "To perform magic tricks",
-        "To perform surgery",
-        "To find missing people",
-        "To build houses"
+        "Its complexity",
+        "Its simplicity",
+        "Its irrelevance",
+        "Its randomness"
       ],
-      "answer": "To find missing people"
+      "answer": "Its complexity"
     },
     {
-      "question": "What is the primary purpose of training for dogs?",
+      "question": "What does Joseph Campbell say about the role of myths in human societies?",
       "options": [
-        "To learn how to ride bicycles",
-        "To develop good manners and obedience",
-        "To become professional dancers",
-        "To become chefs"
+        "They reflect the collective unconscious and offer insights into the human experience",
+        "They have no role",
+        "They are irrelevant",
+        "They promote ignorance"
       ],
-      "answer": "To develop good manners and obedience"
+      "answer": "They reflect the collective unconscious and offer insights into the human experience"
     },
     {
-      "question": "What is one of the ways dogs communicate?",
+      "question": "What does Joseph Campbell celebrate in 'The Power of Myth'?",
       "options": [
-        "Singing opera",
-        "Using body language and vocalizations",
-        "Writing poetry",
-        "Solving mathematical equations"
+        "The power of storytelling",
+        "The power of technology",
+        "The power of politics",
+        "The power of economics"
       ],
-      "answer": "Using body language and vocalizations"
+      "answer": "The power of storytelling"
     },
     {
-      "question": "What is the primary role of working dogs?",
+      "question": "What does 'The Power of Myth' offer readers?",
       "options": [
-        "To watch television",
-        "To assist with gardening",
-        "To perform magic tricks",
-        "To perform tasks such as herding and hunting"
+        "A new perspective on the human condition",
+        "Misinformation",
+        "A celebration of ignorance",
+        "A pessimistic outlook"
       ],
-      "answer": "To perform tasks such as herding and hunting"
+      "answer": "A new perspective on the human condition"
     },
     {
-      "question": "What is one of the reasons why dogs are used in research?",
+      "question": "What does Joseph Campbell say about the enduring significance of myths?",
       "options": [
-        "To play video games",
-        "To study behavior, genetics, and disease",
-        "To learn how to cook spaghetti",
-        "To compose music"
+        "They offer insights into the human experience",
+        "They have no significance",
+        "They are irrelevant",
+        "They promote ignorance and superstition"
       ],
-      "answer": "To study behavior, genetics, and disease"
-    },
-    {
-      "question": "What is the purpose of therapy dogs?",
-      "options": [
-        "To perform acrobatics",
-        "To perform magic shows",
-        "To provide emotional support to people",
-        "To fly airplanes"
-      ],
-      "answer": "To provide emotional support to people"
+      "answer": "They offer insights into the human experience"
     }
   ]
 }

@@ -7,6 +7,7 @@ const readingPassageSection = document.getElementById('reading-passage');
 const nextTestBtn = document.getElementById('next-test-btn'); // New - Get the Next Test button
 let currentQuestionIndex = 0;
 let timerInterval;
+let startTime;
 let questions = [];
 let userAnswers = {}; // Object to store user's answers
 
@@ -18,14 +19,18 @@ const jsonUrls = [
   './practice-json/practice4.json',
   './practice-json/practice5.json',
   './practice-json/practice6.json',
+  './practice-json/practice7.json',
+  './practice-json/practice8.json',
 ];
 
+//Display passage
 function displayReadingPassage(passage) {
   readingPassageSection.innerHTML =
     '<h2>Reading Passage</h2><p>' + passage + '</p>';
   readingPassageSection.style.display = 'block'; // Display the reading passage
 }
 
+//Display Questions
 function displayQuestion() {
   questionsSection.innerHTML = '<h2>Question</h2>';
   const question = questions[currentQuestionIndex];
@@ -119,49 +124,7 @@ async function getData(e) {
   }
 }
 
-// async function getData(e) {
-//   const selectInput = e.target.value;
-//   if (selectInput === 'default') {
-//     clearInterval(timerInterval); // Reset the timer
-//     timerDisplay.textContent = '10:00'; // Reset timer display
-//     readingPassageSection.innerHTML = ''; // Clear reading passage
-//     questionsSection.innerHTML = ''; // Clear the questions
-//     readingPassageSection.style.display = 'none'; // Hide the reading passage
-//     questionsSection.style.display = 'none'; // Hide the questions
-//     resultSection.style.display = 'none'; // Hide the results
-//     nextTestBtn.style.display = 'none'; // Hide the next button
-//     // If layout was adjusted previously, reset it to center
-//     document.querySelector('.container').style.textAlign = 'center';
-//     return; // Do nothing if default option is selected
-//   }
-
-//   try {
-//     // Clear previous timer interval
-//     clearInterval(timerInterval);
-
-//     const response = await fetch(jsonUrls[selectInput]);
-//     const data = await response.json();
-
-//     const passageWithBreaks = addLineBreaks(data.readingPassage);
-//     displayReadingPassage(passageWithBreaks);
-//     questions = shuffleArray(data.questions);
-
-//     // Adjust the layout to move content to the left
-//     document.querySelector('.container').style.textAlign = 'left';
-
-//     currentQuestionIndex = 0; // Reset current question index
-//     displayQuestion(); // Display the first question
-//     startTimer(); // Start the timer
-
-//     // Ensure questions section is displayed
-//     questionsSection.style.display = 'block';
-//   } catch (error) {
-//     console.error('Error fetching JSON:', error);
-//   }
-// }
-
 //randomize questions
-
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -171,20 +134,21 @@ function shuffleArray(array) {
 }
 
 function startTimer() {
-  let timeLeft = 600; // 10 minutes in seconds
+  // Capture the start time when the timer starts
+  startTime = Date.now();
 
+  // Rest of the function remains unchanged
+  let timeLeft = 600; // 10 minutes in seconds
   timerInterval = setInterval(() => {
     const minutes = Math.floor(timeLeft / 60);
     const seconds = timeLeft % 60;
-
     timerDisplay.textContent = `${minutes}:${
       seconds < 10 ? '0' : ''
     }${seconds}`;
-
     if (timeLeft === 0) {
       clearInterval(timerInterval);
       timerDisplay.textContent = "Time's up!";
-      tallyAnswers(); // Tally answers when timer finishes
+      tallyAnswers();
     } else {
       timeLeft--;
     }
@@ -215,6 +179,12 @@ function handleSubmit() {
 }
 
 function tallyAnswers() {
+  // Calculate elapsed time
+  const endTime = Date.now();
+  const elapsedTimeInSeconds = Math.floor((endTime - startTime) / 1000);
+  const elapsedMinutes = Math.floor(elapsedTimeInSeconds / 60);
+  const elapsedSeconds = elapsedTimeInSeconds % 60;
+
   let correctAnswers = 0;
   let incorrectAnswers = 0;
   let resultHTML = '';
@@ -256,6 +226,7 @@ function tallyAnswers() {
   resultHTML += `<div class="result-item">Score: ${scorePercentage.toFixed(
     2
   )}%</div>`;
+  resultHTML += `<div class="result-item">Elapsed Time: ${elapsedMinutes} minutes ${elapsedSeconds} seconds</div>`;
 
   resultSection.innerHTML = resultHTML;
   resultSection.style.display = 'block';
