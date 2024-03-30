@@ -23,7 +23,7 @@ main {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 13px;
+  font-size: 18px;
 }
 
 .container {
@@ -71,17 +71,13 @@ p {
   .container {
     max-width: 90%;
   }
-
-  p {
-    font-size: 15px;
-  }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 400px) {
   header {
     padding: 10px;
   }
   p {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
