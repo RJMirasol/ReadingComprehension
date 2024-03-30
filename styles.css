@@ -5,7 +5,7 @@
 body {
   font-family: 'Cabin', sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2rem;
   margin: 0;
   padding: 0;
 }
@@ -76,8 +76,13 @@ p {
 @media screen and (max-width: 400px) {
   header {
     padding: 10px;
+    line-height: 3rem;
   }
   p {
     font-size: 15px;
+  }
+  #timer {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5em;
   }
 }

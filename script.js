@@ -59,6 +59,19 @@ function displayQuestion() {
   questionsSection.innerHTML += questionHTML;
 }
 
+//Add line breaks on the p element
+function addLineBreaks(passage) {
+  // Split the passage into paragraphs using newline characters (\n)
+  const paragraphs = passage.split('\n');
+
+  // Join the paragraphs with <br> tags to add line breaks
+  const passageWithBreaks = paragraphs.join(
+    '<br><br style="line-height: 5px;">'
+  );
+
+  return passageWithBreaks;
+}
+
 async function getData(e) {
   const selectInput = e.target.value;
   if (selectInput === 'default') {
@@ -82,7 +95,8 @@ async function getData(e) {
     const response = await fetch(jsonUrls[selectInput]);
     const data = await response.json();
 
-    displayReadingPassage(data.readingPassage);
+    const passageWithBreaks = addLineBreaks(data.readingPassage);
+    displayReadingPassage(passageWithBreaks);
     questions = shuffleArray(data.questions);
 
     // Adjust the layout to move content to the left
