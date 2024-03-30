@@ -32,7 +32,9 @@ p {
   text-align: center; /* Center the content initially */
 }
 
-.reading-passage {
+.reading-passage,
+.questions,
+.results {
   margin-bottom: 20px;
 }
 
@@ -63,4 +65,23 @@ p {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  header {
+    padding: 10px;
+  }
+  p {
+    font-size: 14px;
+  }
 }
