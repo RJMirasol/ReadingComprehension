@@ -72,9 +72,9 @@ span {
   cursor: pointer;
   display: inline-block;
   font-weight: 300;
-  font-size: 12px;
-  padding: 0 18px;
-  line-height: 20px;
+  font-size: 16px;
+  padding: 0 50px;
+  line-height: 30px;
   text-align: center;
   text-decoration: none;
   user-select: none;
